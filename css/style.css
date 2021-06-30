@@ -1,0 +1,224 @@
+
+
+@media only screen and (max-width:768px){
+	*{
+		box-sizing: border-box;
+		margin:0;
+		padding: 0;
+		border: 0;
+		font-size:20px;
+		font-family: sans-serif;
+		text-align: justify;
+		color: #fff;
+	}
+	body{
+		background-color:rgb(132, 177, 114);
+		background-color: rgb(132, 177, 114);
+		background-image: url("../imagens/fundo.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	
+	}
+	#container{
+		
+		background-color:  rgba(0, 10, 4, 0.77);
+
+	}
+
+
+	p{
+		margin-bottom: 10px;
+		font-size: 13px;
+	}
+	form{
+		width: 100%;
+		padding: 20px;
+		text-shadow: 1px 1px #000;
+	}
+	hr{
+		background-color: #000;
+		height: 1px;
+		width: 100vw;
+		margin-left: -20px;
+		margin-bottom: 10px;
+	}
+	label{
+		font-size: 14px;
+	}
+	input{
+		font-size: 14px;
+		width: 100%;
+		margin-bottom: 10px;
+		color: black;
+		padding: 10px;
+	}
+	select{
+		font-size: 14px;
+		margin-bottom: 10px;
+		color: black;
+	}
+	option{
+		font-size: 14px;
+		margin-bottom: 10px;
+		color: black;
+	}
+	img{
+		width: 100%;
+		border:1px solid black  ;
+	}
+	
+	h1{
+		background-color: rgb(1, 19, 5);
+
+		padding: 20px;
+		
+		text-transform: uppercase;
+		text-shadow: 1px 2px #000;
+	}
+
+	#grafico{
+		width: 90%;
+		margin-left: 5%;
+		
+	}
+
+	#lorem-div{
+		text-shadow: 1px 1px #000;
+		padding: 20px;
+	}
+
+	#termos{
+		float: left;
+		width: 20px;
+	}
+
+	footer{
+		background-color: rgb(0, 10, 4);
+		font-size: 12px;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+
+}
+
+
+@media only screen and (min-width:769px){
+	*{
+		box-sizing: border-box;
+		margin:0;
+		padding: 0;
+		border: 0;
+		font-size:20px;
+		font-family: sans-serif;
+		text-align: justify;
+		color: #fff;
+		font-size: 16px;
+	}
+	body{
+		background-color: rgb(132, 177, 114);
+		background-image: url("../imagens/fundo.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	p{
+		margin-bottom: 10px;
+		font-size: 13px;
+	}
+	form{
+		margin: 5%;
+		width: 40%;
+		float: right;
+		padding: 20px;
+		background-color:  rgba(0, 10, 4, 0.77);
+		text-shadow: 1px 1px #000;
+		height: 380px;
+	}
+	hr{
+		background-color: #000;
+		height: 1px;
+		width: 100%;
+		
+		margin-bottom: 10px;
+	}
+	label{
+		font-size: 14px;
+	}
+	input{
+		padding: 10px;
+		font-size: 14px;
+		width: 100%;
+		margin-bottom: 10px;
+		color: black;
+	}
+	select{
+		font-size: 14px;
+		margin-bottom: 10px;
+		color: black;
+	}
+	option{
+		font-size: 14px;
+		margin-bottom: 10px;
+		color: black;
+	}
+	img{
+		height: 160px;
+		border:1px solid black  ;
+	}
+	
+	h1{
+		text-align: center;
+		background-color: rgb(1, 19, 5);
+
+		padding: 20px;
+		
+		text-transform: uppercase;
+		text-shadow: 1px 2px #000;
+	}
+
+	#grafico{
+		padding-left: 20px;
+		background-color:  rgba(0, 10, 4, 0.77);
+		width: 40%;
+		margin-left: 5%;
+		margin-top: 5%;
+		height: 190px;
+		padding-bottom: 5%;
+		padding-top: 2%;
+	}
+
+
+	#lorem-div{
+		width: 40%;
+		margin-left: 5%;
+		background-color:  rgba(0, 10, 4, 0.77);
+		text-shadow: 1px 1px #000;
+		padding: 0% 20px;
+		height: 190px;
+	}
+
+	#registrar{
+		width: 100px;
+		float: right;
+	}
+	#registrar:hover{
+		background-color: #000;
+		color:#fff;
+	}
+	#termos{
+		float: left;
+		width: 20px;
+	}
+	
+
+
+	footer{
+		background-color: rgb(0, 10, 4);
+		font-size: 12px;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+
+}
